@@ -1,0 +1,5 @@
+{
+    "selector": 	"source.swift", 
+    "working_dir": 	"${project_path:${folder}}",
+	"shell_cmd": 	"swift build -v;.build/debug/`basename \\`pwd\\``"
+}
